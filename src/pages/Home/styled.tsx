@@ -18,7 +18,6 @@ export const Form = styled.form`
   justify-content: center;
   padding: 20px;
   border-radius: 9px;
-
   @media (max-width: 300px) {
     padding: 15px;
   }
