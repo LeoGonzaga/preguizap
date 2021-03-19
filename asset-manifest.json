@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/preguizap.github.io/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/preguizap.github.io/static/js/main.005172fd.chunk.js",
+    "main.js.map": "/preguizap.github.io/static/js/main.005172fd.chunk.js.map",
+    "runtime-main.js": "/preguizap.github.io/static/js/runtime-main.91f23983.js",
+    "runtime-main.js.map": "/preguizap.github.io/static/js/runtime-main.91f23983.js.map",
+    "static/js/2.f7361202.chunk.js": "/preguizap.github.io/static/js/2.f7361202.chunk.js",
+    "static/js/2.f7361202.chunk.js.map": "/preguizap.github.io/static/js/2.f7361202.chunk.js.map",
+    "static/js/3.1471451b.chunk.js": "/preguizap.github.io/static/js/3.1471451b.chunk.js",
+    "static/js/3.1471451b.chunk.js.map": "/preguizap.github.io/static/js/3.1471451b.chunk.js.map",
+    "index.html": "/preguizap.github.io/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/preguizap.github.io/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.f7361202.chunk.js.LICENSE.txt": "/preguizap.github.io/static/js/2.f7361202.chunk.js.LICENSE.txt",
+    "static/media/logo.1b8956da.png": "/preguizap.github.io/static/media/logo.1b8956da.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91f23983.js",
+    "static/js/2.f7361202.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.005172fd.chunk.js"
+  ]
+}
