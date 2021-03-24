@@ -9,7 +9,7 @@
    </a>
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/LeoGonzaga/preguizap?color=FB250">
 
-  <a href="https://github.com/leoGonzaga/insta-front-followers-bbb/commits/main">
+  <a href="https://github.com/leoGonzaga/preguizap/commits/main">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/leoGonzaga/preguizap?color=FB250">
   </a> 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-FB250">
