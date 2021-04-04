@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import InputMask from "react-input-mask";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -59,7 +59,7 @@ export const Button = styled.button`
   color: #fff;
 
   &:hover {
-    background-color: #01B170;
+    background-color: #01b170;
   }
 `;
 
@@ -81,4 +81,18 @@ export const Title = styled.h2`
   padding: 0px;
   margin-bottom: 20px;
   color: #04bf68;
+`;
+
+export const Phone = styled(InputMask)`
+  height: 46px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0px;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 0px 10px;
+
+  &:focus {
+    border: 1px solid #04bf68;
+  }
 `;
