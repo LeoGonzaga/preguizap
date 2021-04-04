@@ -17,18 +17,21 @@ const Home: React.FC = () => {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = useCallback(async () => {
-    try {
-      console.log(message);
-      if (message.length == 10) {
-        window.open(`${API.URL + phone}&text=${message}`);
-      } else {
+  const handleSubmit = useCallback(
+    async (e) => {
+      e.preventDefault();
+      try {
+        if (phone.length >= 11) {
+          window.open(`${API.URL + phone}&text=${message}`);
+        } else {
+          alert("Por favor, preencha o número do telefone corretamente.");
+        }
+      } catch (e) {
+        console.log(e);
       }
-    } catch (e) {
-      console.log(e);
-    }
-  }, [message, phone]);
-
+    },
+    [message, phone]
+  );
   const handlePhone = useCallback(
     (event: ChangeEvent<HTMLInputElement>) => {
       setPhone(event.target.value);
@@ -54,6 +57,7 @@ const Home: React.FC = () => {
         <Phone
           type="tel"
           mask="(99) 9 9999-9999"
+          placeholder="(99) 9 9999-9999"
           value={phone}
           onChange={(e) => handlePhone(e)}
         />
